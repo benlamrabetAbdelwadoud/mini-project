@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); </style>
+  <title>About</title>
+</head>
+<body  id="back">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark shadow d-flex flex-column">
+    <div class="container-fluid" >
+        <a class="navbar-brand d-flex justify-content-between align-content-center ms-5" href="#">
+           <span class="align-self-end pb-1 ps-2 fw-bolder lead " ><img src="./img/logo1.webp" style="position: absolute;margin:-10px ;border-radius: 20px 0 20px;" alt="Logo" width="50px" height="30px" id="logo"></span> 
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="me-5"  id="navbarNav">
+            <button id="home" class="btn border-0 active fw-bold  text-white" >Home</button>
+            <button id="coursesbtn" class="btn border-0  fw-bold text-white " >Courses</button>
+            <button id="about" class="btn btn-secondary  fw-bold  text-white" >About</button>
+          
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-5  d-flex flex-column ">
+        <img src="./img/logo1.webp" class="img-fluid align-self-center" width="200px" alt="logo">
+      <div  class="w-75  align-self-center mt-5 mb-lg-5 border border-primary p-3 rounded-3" id="txt">
+        <p> </p>
+      </div>
+  </div>
+ <script>
+const homePage = document.getElementById("home")
+const coursesPage = document.getElementById("coursesbtn")
+const aboutPage = document.getElementById("about")
+
+homePage.addEventListener("click", ()=>{
+  window.location.href = "../index.html"
+  console.log("hi")
+})
+coursesPage.addEventListener("click", ()=>{
+  window.location.href = "../courses.html"
+})
+aboutPage.addEventListener("click", ()=>{
+  window.location.href = "../about.html"
+})
+ </script>
+</body>
+</html>
