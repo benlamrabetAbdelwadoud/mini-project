@@ -1,0 +1,90 @@
+#landing{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+    background-position: start;
+
+}
+
+#poster {
+   
+    height: 80vh ;
+    
+}
+#courseList {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    column-gap: 10px;
+    row-gap: 15px;
+    
+}
+#randCourses {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 10px;
+    row-gap: 15px; 
+}
+
+.custom-range::-webkit-slider-runnable-track {
+   background-color: rgb(48, 33, 255);
+
+ }
+ #poster p {
+    color : white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 50px;
+ }
+
+ .box{
+  box-shadow:0 10px 10px #0ef;
+  margin-bottom: 50px;
+
+}
+ .test{
+  background-color: #000000;
+  height: 250px;
+  width: 300px;
+  position: absolute;
+  top: 115px;
+  left: 16px;
+  border-top-left-radius:5%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 5%;
+  color: aliceblue;
+  box-shadow:0 0 25px #0ef;
+
+
+ } 
+
+#back{
+  background-color: black;
+}
+.card-body{
+    background-color:#000033 ;
+
+}
+.card-body > h7{
+    color: aliceblue;
+}
+
+.down{
+    color: aliceblue;
+}
+
+#txt{
+    color:#fff;
+    background-color: #000;
+    box-shadow:0 0 25px #fff;
+}
+
+#logo{
+    box-shadow:0 0 10px #fff;
+
+}
+
+
+
